@@ -63,6 +63,7 @@ public class FormStudentRegistrationTest {
         $(".table-responsive").shouldHave(text("Screenshot_1.png"));
         $(".table-responsive").shouldHave(text("Test"));
         $(".table-responsive").shouldHave(text("NCR Delhi"));
+        // new string
     }
 
 }
