@@ -51,7 +51,7 @@ public class FormStudentRegistrationTest {
         $("#react-select-3-option-0").click();
         $("#city").click();
         $("#react-select-4-option-0").click();
-
+// new string
         $("#submit").click();
         $(".table-responsive").shouldHave(text("Test TestLastName"));
         $(".table-responsive").shouldHave(text("test@test.com"));
